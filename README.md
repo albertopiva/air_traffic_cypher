@@ -25,15 +25,16 @@ Our database is intended for people working in the aviation sector, e.g. Airline
 
 ## What is inside the repository
 
- - `data` : zip file with data needed to build the database
+ - `data` : zip file with data needed to build the database (available inside the Google Drive folder)
  - `scripts/Sampling_Flights`: Python script for creating the sample files about flights and FIRs.
  - `scripts/scrape_fir`: Python script for scraping the FIR information from the related [Wikipedia page](https://en.wikipedia.org/wiki/Flight_information_region) 
  - `scripts/Scrape_airlines`: Python script for scraping the Airline Companies information from the related [Wikipedia page](https://en.wikipedia.org/wiki/List_of_airline_codes) 
  - `scripts/AirTraffic_Graph`: Python script for data ingestion.
  - `scripts/maps`: Python script for query visualization in geographical maps.
  - `AirTraffic-webapp`: implementation of a webapp for result visualization.
- - `dump`: contains a dump file of the database ready to be import in neo4j.
+ - `dump`: contains a dump file of the database ready to be import in neo4j (available inside the Google Drive folder)
 
+Google drive: https://drive.google.com/drive/folders/12U_8DkDBIcKzFlR04mKsq5eDWKYA57x7?usp=drive_link
 
 
 ## Webapp
