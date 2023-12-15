@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ Author: BookStudy Team
+ Version: 1.0
+ Since: 1.0
+-->
+
+<Configuration status="INFO">
+
+    <Appenders>
+        <!--
+        fileName: is the path where you want to save the file
+        filePatter: describes how the file should be renamed
+        -->
+        <RollingFile name="MyFile"
+                     fileName="${sys:catalina.home}/logs/bookStudy/logFile.log"
+                     filePattern="${sys:catalina.home}/logs/bookStudy/logFile-%d{MM-dd-yyyy}.log">
+
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+
+            <TimeBasedTriggeringPolicy />
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="MyFile"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

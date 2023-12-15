@@ -1,0 +1,35 @@
+/* Footer elements */
+
+footer {
+    background: #008dbb94;
+    bottom: 0;
+    width: 100%;
+    /*height: 120px;*/
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+    font-family: Times, Arial, serif;
+    color: black;
+}
+
+
+footer h3{
+    font-size: x-large;
+    font-weight: bold;
+    background: inherit;
+}
+
+footer i{
+    margin-right: 5px;
+    background: inherit;
+}
+
+
+.footer-column {
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+

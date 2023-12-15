@@ -1,0 +1,125 @@
+button {
+    background-color: #172A3A;
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    height: 37px;
+}
+button:hover {
+    opacity: 0.8;
+}
+button[type="reset"] {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+table{
+    text-align:center;
+    width: 90%;
+    border-collapse: collapse;
+    margin:auto;
+
+}
+h1{
+    font-size:x-large;
+}
+table, td, th {
+    border: 1px solid #87A5CA;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.expand{
+    width: 5%;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #87A5CA;
+    color: black;
+}
+.small-table{
+    width:300px;
+   margin:auto;
+}
+
+select {
+    background-color: #1F99CD;
+    background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A%23ffcc00%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E%0A);
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 10px 30px 10px 10px;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+select::-ms-expand {
+    display: none;
+}
+@-moz-document url-prefix() {
+    select {
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0 0 0 #ffffff;
+    }
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/lato/v20/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v20/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+#select,#result,#example{
+    width:100%;
+}
+#page{
+    width:98%;
+    max-width:1000px;
+    margin:auto;
+}
+#pageLeft{
+    width:48%;
+    margin:2%;
+}
+#pageRight{
+    width:48%;
+    margin-right:2%;
+    margin-top:1%;
+    margin-left: 15px;
+}
+.center {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+}
+.p-airlines{
+    margin:2%;
+    padding:30px;
+}
+.p-flight{
+    margin-left:2%;
+    margin-top:2%;
+    padding-left:30px;
+}
+.img-query{
+    width:100%;
+    margin:5px;
+    margin-top:20px;
+}

@@ -1,0 +1,56 @@
+/* Header elements */
+
+header {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width:80%;
+    color: black;
+    height: fit-content;
+    display: block;
+    margin: auto;
+}
+
+#header_logo{
+    width: 60%;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+#euroControl_logo{
+    width: 45%;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.title {
+    font-family: Times, Arial, serif;
+    font-size: 50px;
+    color: #008dbb;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+/* Header settings */
+.first-header-row {
+    background: transparent;
+    color: black;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-div-logo{
+    width: 25%;
+}
+
+.header-div-title {
+    width: 50%;
+    text-align: center;
+}
+
+.header-div-euroControl{
+    width: 25%;
+}

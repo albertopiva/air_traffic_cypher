@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="SpatialTeam">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Homepage</title>
+
+        <!--bootstrap and jQuery import -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+         <!-- fontAwesome import-->
+        <link href="/AirTraffic-1.00/fontAwesome/css/fontawesome.css" rel="stylesheet"/>
+        <link href="/AirTraffic-1.00/fontAwesome/css/all.css" rel="stylesheet">
+
+        <!-- personal import -->
+        <link href="/AirTraffic-1.00/css/template.css" type="text/css" rel="stylesheet"/>
+        <script src="/AirTraffic-1.00/js/loadHF.js"></script>
+
+    </head>
+    <body>
+        <header></header>
+
+        <p class="textDiv">
+            Our dashboard allows a meaningful visualization of some interesting queries by showing
+            the results in a geographic map. All queries are run in Cypher and refer to our database.
+            By simply clicking on the images below, you will be redirected to a full-screen visualization
+            of the specific query and you can zoom in to better see the results.
+            For example, the quereies below return
+            <a href="/AirTraffic-1.00/html/it_all_airports_query.html">the italian airports by dimension</a>,
+            <a href="/AirTraffic-1.00/html/eu_airports_large_query.html">the european airports</a>,
+            <a href="/AirTraffic-1.00/html/eu_airspaces_query.html">the european airspaces</a>,
+            <a href="/AirTraffic-1.00/html/traffic_large_airports_query.html">the worldwide airports traffic</a> and
+            <a href="/AirTraffic-1.00/html/flight_more_airspaces_query.html">the flight traversing more airspaces</a>.
+        </p>
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="/AirTraffic-1.00/html/it_all_airports_query.html">
+                            <img class="sliderShow" src="/AirTraffic-1.00/media/slider/it_airports.jpg" alt="q1">
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="/AirTraffic-1.00/html/eu_airports_large_query.html">
+                            <img class="sliderShow" src="/AirTraffic-1.00/media/slider/eu_airports.jpg" alt="q1">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="/AirTraffic-1.00/html/eu_airspaces_query.html">
+                            <img class="sliderShow" src="/AirTraffic-1.00/media/slider/eu_airspaces.jpg" alt="q1">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="/AirTraffic-1.00/html/traffic_large_airports_query.html">
+                            <img class="sliderShow" src="/AirTraffic-1.00/media/slider/traffic_airports.jpg" alt="q1">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="/AirTraffic-1.00/html/flight_more_airspaces_query.html">
+                            <img class="sliderShow" src="/AirTraffic-1.00/media/slider/longest_path.jpg" alt="q1">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        <a class="btn" style="margin-top: 50px" href="/AirTraffic-1.00/html/milan.html">See use-cases</a>
+        <footer></footer>
+
+    </body>
+</html>

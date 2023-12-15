@@ -1,0 +1,129 @@
+@import "header.css";
+@import "footer.css";
+
+
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+    width:100%;
+}
+
+body {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Times, Arial, serif;
+}
+
+a {
+    color: black;
+    font-family: Times, Arial, serif;
+}
+
+p {
+    margin: unset;
+}
+
+.row{
+    width: 100%;
+    margin: 0px;
+}
+
+.col-sm-2{ padding: 0px; }
+
+#content{
+    flex-grow:1;
+    width:90%;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.column{
+    width: 50%;
+    margin:0px;
+}
+.column-content{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.textDiv{
+    display:block;
+    margin:auto;
+    width: 80%;
+    text-align:justify;
+    margin-bottom: 20px;
+    font-size: x-large;
+    color: black;
+}
+
+#myCarousel{
+    display: block;
+    margin: auto;
+}
+
+.carousel-inner{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.carousel-indicators li {
+    border: 3px solid black !important;
+}
+
+.active{
+    background: black !important;
+}
+
+.map{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+.btn{
+    width: 300px;
+    border-radius: 12px;
+    background-color: #008dbb94;
+    font-size: xx-large;
+    color: #00426c;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: #008dbb6b;
+}
+
+.homepage_btn{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    font-size: xx-large;
+}
+
+.back_btn{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    font-size: xx-large;
+}
+
+.queryTitle{
+    text-align: center;
+    color: #00426c;
+    font-size: xxx-large;
+}
+
+.legend{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background: #ffffff;
+    border-radius: 12px;
+}

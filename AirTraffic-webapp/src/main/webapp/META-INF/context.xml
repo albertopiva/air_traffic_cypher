@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ Author: BookStudy Team
+ Version: 1.0
+ Since: 1.0
+-->
+
+<!-- The contents of this file will be loaded for each web application -->
+<Context>
+
+   <Resource name="jdbc/appdb"
+          auth="Container"
+          type="javax.sql.DataSource"
+          factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+          driverClassName="org.postgresql.Driver"
+          url="jdbc:postgresql://localhost:5432/appdb"
+          username="studyteam"
+          password="admin"
+          testOnBorrow="true"
+          validationQuery="SELECT 1"
+          timeBetweenEvictionRunsMillis="30000"
+          maxActive="10"
+          minIdle="5"
+          maxWait="10000"
+          initialSize="2"
+          removeAbandonedTimeout="60"
+          removeAbandoned="true"
+          closeMethod="close"
+	/>
+
+</Context>
